@@ -31,6 +31,7 @@ public class MathUtilsTest {
 			assertTrue(mathUtils.isEven(8));
 			assertTrue(mathUtils.isEven(10));
 			assertTrue(mathUtils.isEven(12));
+			assertTrue(mathUtils.isEven(14));
 
 		}
 
@@ -43,7 +44,6 @@ public class MathUtilsTest {
 			assertFalse(mathUtils.isEven(7));
 			assertFalse(mathUtils.isEven(9));
 			assertFalse(mathUtils.isEven(11));
-			assertFalse(mathUtils.isEven(13));
 
 		}
 	}
